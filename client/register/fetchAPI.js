@@ -7,6 +7,5 @@ export const createUserFromAPI = async (user) => {
     body: JSON.stringify(user)
   });
   const getDataFromFetchAPI = await dataFetchAPI.json();
-  const userCreated = await getDataFromFetchAPI;
-  return userCreated;
+  return getDataFromFetchAPI;
 };

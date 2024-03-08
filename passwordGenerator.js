@@ -1,7 +1,7 @@
 // requerir paquetes desde node_modules
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
-let userName = 'juancodev';
+let userName = 'Samuel';
 let password = 'holamundo';
 
 console.log(`password without encrypt: ${password}`);
